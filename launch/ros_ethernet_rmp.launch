@@ -79,6 +79,6 @@
   
   <arg name="include_batt_monitor" value="true"/>
   <group if="$(arg include_batt_monitor)">
-    <include file="$(find carl_bringup)/launch/segway.launch"/>
+    <include file="$(battery_monitor_rmp)/launch/battery_monitor_rmp.launch"/>
   </group>
 </launch>
