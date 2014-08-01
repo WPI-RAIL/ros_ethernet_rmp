@@ -57,13 +57,13 @@ class JointStateMonitor:
 		"""
 		for x in range(0, len(rmp_items)):
 			if rmp_items[x] == 'left_front_pos_m':
-				pos[0] =  (rmp_values[x]/self.circumference) % (2*math.pi)
+				pos[0] =  ((rmp_values[x]/self.circumference) % 1.0)*(2*math.pi)
 			elif rmp_items[x] == 'right_front_pos_m':
-				pos[1] = (rmp_values[x]/self.circumference) % (2*math.pi) 
+				pos[1] = ((rmp_values[x]/self.circumference) % 1.0)*(2*math.pi)
 			elif rmp_items[x] == 'left_rear_pos_m':
-				pos[2] = (rmp_values[x]/self.circumference) % (2*math.pi) 
+				pos[2] = ((rmp_values[x]/self.circumference) % 1.0)*(2*math.pi)
 			elif rmp_items[x] == 'right_rear_pos_m':
-				pos[3] = (rmp_values[x]/self.circumference) % (2*math.pi) 
+				pos[3] = ((rmp_values[x]/self.circumference) % 1.0)*(2*math.pi)
 			elif rmp_items[x] == 'left_front_vel_mps':
 				vel[0] = rmp_values[x]
 			elif rmp_items[x] == 'right_front_vel_mps':
