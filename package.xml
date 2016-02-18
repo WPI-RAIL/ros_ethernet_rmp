@@ -5,15 +5,16 @@
   <description>ROS Wrapper for the Segway RMP Ethernet Python Driver</description>
 
   <maintainer email="rctoris@wpi.edu">Russell Toris</maintainer>
+  <maintainer email="dekent@gatech.edu">David Kent</maintainer>
   <author>SEGWAY Inc.</author>
   <author email="cmdunkers@wpi.edu">Chris Dunkers</author>
-  <author email="davidkent@wpi.edu">David Kent</author>
+  <author email="dekent@gatech.edu">David Kent</author>
 
   <license>BSD</license>
 
   <url type="website">http://ros.org/wiki/ros_ethernet_rmp</url>
-  <url type="bugtracker">https://github.com/WPI-RAIL/ros_ethernet_rmp/issues</url>
-  <url type="repository">https://github.com/WPI-RAIL/ros_ethernet_rmp</url>
+  <url type="bugtracker">https://github.com/GT-RAIL/ros_ethernet_rmp/issues</url>
+  <url type="repository">https://github.com/GT-RAIL/ros_ethernet_rmp</url>
 
   <buildtool_depend>catkin</buildtool_depend>
 
