@@ -1,4 +1,4 @@
-ros_ethernet_rmp [![Build Status](https://api.travis-ci.org/WPI-RAIL/ros_ethernet_rmp.png)](https://travis-ci.org/WPI-RAIL/ros_ethernet_rmp)
+ros_ethernet_rmp [![Build Status](https://api.travis-ci.org/GT-RAIL/ros_ethernet_rmp.png)](https://travis-ci.org/GT-RAIL/ros_ethernet_rmp)
 ================
 
 #### ROS Wrapper for the Segway RMP Ethernet Python Driver
