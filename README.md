@@ -6,7 +6,7 @@ For full documentation, see [the ROS wiki](http://ros.org/wiki/ros_ethernet_rmp)
 
 The code modified from examples provided by [SEGWAY Inc.](http://rmp.segway.com/). For full terms and conditions, see the [LICENSE](LICENSE) file.
 
-This package serves primarily as a ROS wrapper for the [python_ethernet_rmp](https://github.com/WPI-RAIL/python_ethernet_rmp) package.
+This package serves primarily as a ROS wrapper for the [python_ethernet_rmp](https://github.com/GT-RAIL/python_ethernet_rmp) package.
 
 ### License
 For full terms and conditions, see the [LICENSE](LICENSE) file.
