@@ -4,7 +4,7 @@
   <version>0.0.8</version>
   <description>ROS Wrapper for the Segway RMP Ethernet Python Driver</description>
 
-  <maintainer email="rctoris@wpi.edu">Russell Toris</maintainer>
+  <maintainer email="russell.toris@gmail.com">Russell Toris</maintainer>
   <maintainer email="dekent@gatech.edu">David Kent</maintainer>
   <author>SEGWAY Inc.</author>
   <author email="cmdunkers@wpi.edu">Chris Dunkers</author>
